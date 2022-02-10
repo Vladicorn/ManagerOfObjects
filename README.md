@@ -10,12 +10,12 @@
  
 ### API:
 - Post("/api/register") - регистрация
-   -- {
-   ---     "Name" : "Проверка",
-   ---     "Email" : "10000@mail.ru",
-   ---     "Password": "1234",
-    ---    "PasswordConfirm": "1234"
-   -- }
+-- {
+---     "Name" : "Проверка",
+---     "Email" : "10000@mail.ru",
+---     "Password": "1234",
+---    "PasswordConfirm": "1234"
+-- }
 
 - Post("/api/login") - логин
     {
