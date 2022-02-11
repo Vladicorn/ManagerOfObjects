@@ -18,10 +18,10 @@
 ```}
 
 - Post("/api/login") - логин
-    -   {
-     -        "Email" : "10000@mail.ru",
-     -        "Password": "1234",
-    -  }
+```{
+    "Email" : "10000@mail.ru",
+    "Password": "1234",
+```}
 
 - Get("/api/logout") - разлогин
 
@@ -30,16 +30,16 @@
 - Get("/api/objects") - список всех объектов
 - Get("/api/object/:id") - список отдельного объекта
 - Post("/api/object") - создание объекта
-   -{
-    -        "Name" : "Проверка",
-    -        "PriceSum": "5",
-   -}
+```{
+    "Name" : "Проверка",
+    "PriceSum": "5",
+```}
 
 - Put("/api/object/:id") - обновление объекта
-   -    {
-    -        "Name" : "Проверка",
-    -        "PriceSum": "5",
-   -    }
+```{
+    "Name" : "Проверка",
+    "PriceSum": "5",
+```}
 
 - Delete("/api/object/:id") - удаление объекта
 
